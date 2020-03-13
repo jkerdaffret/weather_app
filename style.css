@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.input {
+    text-align: center;
+    margin-top: 3%;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 500px;
+    background: #e7e7e7;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 500px;
+    background: #e7e7e7;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.display {
+    width: 500px;
+    height: 600px;
+    background: rgba(128, 128, 128, 0.699);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 40px;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 40px auto;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+#geoloc {
+    margin: auto;
+    height: 40px;
+    width: 220px;
+    border: none;
+    background: rgba(128, 128, 128, 0.699);
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    display: block;
+}
+
+.local {
+    text-align: center;
+    margin: 30px auto 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgba(170, 170, 170, 0.699);
+    color: #ffffff;
+}
+
